@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1000452311890",
+    "firebase_url": "https://deluxe-realty-default-rtdb.firebaseio.com",
+    "project_id": "deluxe-realty",
+    "storage_bucket": "deluxe-realty.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000452311890:android:a8cca4afbbbe431291488b",
+        "android_client_info": {
+          "package_name": "com.example.deluxerealty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000452311890-m8f5ao38389v06rqhl3gt3u9vaefcbho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqX6QohIAHCokGX-V0tjh9FmchPUpH390"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000452311890-m8f5ao38389v06rqhl3gt3u9vaefcbho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

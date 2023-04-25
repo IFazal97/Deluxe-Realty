@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookingDetailsActivity">
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="15dp"
+        android:id="@+id/back_img"
+        android:src="@drawable/arrow_black"/>
+
+    <Button
+        android:id="@+id/btn_back"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+
+
+    <TextView
+        android:id="@+id/booking_details_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="AD Details"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/booking_info_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/booking_details_tv"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Information"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/booking_details_card"
+        app:cardCornerRadius="20dp"
+        android:layout_below="@+id/booking_info_tv"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="15dp">
+
+
+            <TextView
+                android:id="@+id/student_name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Student_name"
+                android:textSize="17sp" />
+
+
+            <TextView
+                android:id="@+id/booking_date_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/student_name_tv"
+                android:layout_marginTop="10dp"
+                android:text="01-02-2022"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/booking_time_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/booking_date_tv"
+                android:layout_marginTop="10dp"
+                android:text="00:00AM"
+                android:textSize="17sp"
+
+                />
+
+            <TextView
+                android:id="@+id/category_name_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/booking_time_tv"
+                android:layout_marginTop="10dp"
+                android:text="Category name"
+                android:textSize="17sp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/contact_details_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/booking_details_card"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Contact"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mobile_number_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contact_details_tv"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="10dp"
+        android:text="+973-33868631"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/student_email_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mobile_number_tv"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="10dp"
+        android:text="ifazal2597@gmail.com"
+        android:textSize="17sp"
+
+        />
+
+    <TextView
+        android:id="@+id/status_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/student_email_tv"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Pending"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/booking_accept_btn"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/status_tv"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_white_bg"
+        android:elevation="2dp"
+        android:text="Accept"
+        android:textAllCaps="false"
+        android:textColor="@color/color_green"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/booking_decline_btn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/status_tv"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="22dp"
+        android:background="@drawable/button_white_bg"
+        android:elevation="2dp"
+        android:text="Decline"
+        android:textAllCaps="false"
+        android:textColor="@color/color_red"
+        android:textSize="25sp" />
+
+
+
+
+</RelativeLayout>

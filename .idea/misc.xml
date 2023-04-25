@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Deluxe Realty/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Deluxe Realty/app/src/main/res/drawable/bg_search.xml" value="0.157" />
+        <entry key="..\:/Deluxe Realty/app/src/main/res/drawable/bottom_bg.xml" value="0.2145" />
+        <entry key="..\:/Deluxe Realty/app/src/main/res/drawable/button_bg.xml" value="0.26615384615384613" />
+        <entry key="..\:/Deluxe Realty/app/src/main/res/drawable/card_bg.xml" value="0.1545" />
+        <entry key="..\:/Deluxe Realty/app/src/main/res/drawable/edit_bg.xml" value="0.2351851851851852" />
+        <entry key="..\:/Deluxe Realty/app/src/main/res/drawable/ic_account.xml" value="0.2145" />
+        <entry key="..\:/Deluxe Realty/app/src/main/res/drawable/ic_baseline_favorite_border_24.xml" value="0.1545" />
+        <entry key="..\:/Deluxe Realty/app/src/main/res/drawable/ic_chat.xml" value="0.2145" />
+        <entry key="..\:/Deluxe Realty/app/src/main/res/drawable/ic_favorite.xml" value="0.2145" />
+        <entry key="..\:/Deluxe Realty/app/src/main/res/drawable/ic_fill_favorite.xml" value="0.1545" />
+        <entry key="..\:/Deluxe Realty/app/src/main/res/drawable/ic_home.xml" value="0.2145" />
+        <entry key="..\:/Deluxe Realty/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Deluxe Realty/app/src/main/res/drawable/layout_bg.xml" value="0.136" />
+        <entry key="..\:/Deluxe Realty/app/src/main/res/drawable/linear_bg.xml" value="0.1545" />
+        <entry key="..\:/Deluxe Realty/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.19765625" />
+        <entry key="..\:/Deluxe Realty/app/src/main/res/layout-w936dp/activity_login.xml" value="0.190625" />
+        <entry key="..\:/Deluxe Realty/app/src/main/res/layout/activity_details.xml" value="0.264" />
+        <entry key="..\:/Deluxe Realty/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/Deluxe Realty/app/src/main/res/layout/activity_homepage.xml" value="0.25416666666666665" />
+        <entry key="..\:/Deluxe Realty/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Deluxe Realty/app/src/main/res/layout/activity_login1.xml" value="0.264" />
+        <entry key="..\:/Deluxe Realty/app/src/main/res/layout/activity_login2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Deluxe Realty/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Deluxe Realty/app/src/main/res/layout/activity_sign_up.xml" value="0.2" />
+        <entry key="..\:/Deluxe Realty/app/src/main/res/layout/activity_splashscreen.xml" value="0.25416666666666665" />
+        <entry key="..\:/Deluxe Realty/app/src/main/res/layout/background_search.xml" value="0.6115288220551378" />
+        <entry key="..\:/Deluxe Realty/app/src/main/res/layout/fragment_account.xml" value="0.264" />
+        <entry key="..\:/Deluxe Realty/app/src/main/res/layout/fragment_chat.xml" value="0.25416666666666665" />
+        <entry key="..\:/Deluxe Realty/app/src/main/res/layout/fragment_favorite.xml" value="0.25052083333333336" />
+        <entry key="..\:/Deluxe Realty/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Deluxe Realty/app/src/main/res/layout/top_deals.xml" value="0.264" />
+        <entry key="..\:/Deluxe Realty/app/src/main/res/menu/bottom_menu.xml" value="0.2" />
+        <entry key="..\:/Deluxe Realty/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.25277777777777777" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
